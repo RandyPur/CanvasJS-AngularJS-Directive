@@ -9,24 +9,24 @@ angular.module('your-module-here')
 	 * A chart can be created using a single directive:
 	 *
 	 * <ng-chart
-	 *     chartData="{array}"				default: {} (see below for more information)
-	 *     lineThickness="{int}"			default: 0.5
-	 *     fontFamily="{string}"			default: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif
-	 *     animationEnabled="{bool}"		default: true
-	 *     interactivityEnabled="{bool}"	default: true
-	 *     title="{string}"					default: ''
-	 *     titleX="{string}"				default: ''
-	 *     titleY="{string}"				default: ''
-	 *     intervalType="{string}"			default: 'number' ('day', 'month', 'year', 'number')
-	 *     interval="{int}"					default: 1
-	 *     sharedTooltip="{bool}"			default: true
-	 *     chartType="{string}"				default: 'column' (see link in description blow for all supported types)
-	 *     showLegend="{bool}"				default: true
-	 *     showAxisLabels="{bool}"			default: true
-	 *     showTicks="{bool}"				default: true
-	 *     gridColor="{string}"				default: '#CCCCCC'
-	 *     gridTextColor="{string}"			default: '#808080'
-	 *     textColor="{string}"				default: '#505050'
+	 *     chartData="{array}"              default: {} (see below for more information)
+	 *     lineThickness="{int}"            default: 0.5
+	 *     fontFamily="{string}"            default: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif
+	 *     animationEnabled="{bool}"        default: true
+	 *     interactivityEnabled="{bool}"    default: true
+	 *     title="{string}"                 default: ''
+	 *     titleX="{string}"                default: ''
+	 *     titleY="{string}"                default: ''
+	 *     intervalType="{string}"          default: 'number' ('day', 'month', 'year', 'number')
+	 *     interval="{int}"                 default: 1
+	 *     sharedTooltip="{bool}"           default: true
+	 *     chartType="{string}"             default: 'column' (see link in description blow for all supported types)
+	 *     showLegend="{bool}"              default: true
+	 *     showAxisLabels="{bool}"          default: true
+	 *     showTicks="{bool}"               default: true
+	 *     gridColor="{string}"             default: '#CCCCCC'
+	 *     gridTextColor="{string}"         default: '#808080'
+	 *     textColor="{string}"             default: '#505050'
 	 * ></ng-chart>
 	 *
 	 * It's also possible to use any HTML container and simply add the attribute "ng-chart".
